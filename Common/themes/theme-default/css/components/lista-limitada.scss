@@ -1,0 +1,40 @@
+﻿@media (min-width: 768px) {
+    .lista-limitada-cabecalho table{
+        width: 97.5%;
+    }
+}
+
+@media (min-width: 992px) {
+    .lista-limitada-cabecalho table{
+        width: 98.2%
+    }
+}
+
+@media (min-width: 1200px) {
+    .lista-limitada-cabecalho table{
+        width: 98.6%
+    }
+}
+
+.lista-limitada-cabecalho table{
+    margin-bottom: 0;
+}
+
+.lista-limitada {
+    min-height: 50px; 
+    max-height: 200px; 
+    overflow-y: scroll;
+    margin-bottom: 10px;
+}
+
+.lista-limitada table{
+    margin-top: 0;
+}
+
+.lista-limitada table tr td:last-child{
+    text-align: center;
+}
+
+.lista-limitada table tbody a{
+    color: #763029;
+}

@@ -1,0 +1,53 @@
+.custom-breadcrumb {
+    list-style: none;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+.custom-breadcrumb > li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    background-color: #e7e7e7;
+    border-bottom: 1px solid #ccc;
+}
+.custom-breadcrumb > li > a,
+.custom-breadcrumb > li > span {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px 15px;
+    font-size: 9px;
+    color: $brand-primary;
+}
+.custom-breadcrumb > li > a {
+    cursor: pointer;
+}
+.custom-breadcrumb > li > a:hover {
+    text-decoration: none;
+}
+.custom-breadcrumb > li.active {
+  background-color: $breadcrumb;
+  border-bottom: 1px solid darken($breadcrumb, 50%);
+}
+.custom-breadcrumb > li::before,
+.custom-breadcrumb > li::after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    border-left: 6px solid #f8f8f8;
+    border-top: 10px solid transparent;
+    border-bottom: 10px double transparent;
+}
+.custom-breadcrumb > li:first-child::before {
+    border-left: 0;
+}
+.custom-breadcrumb > li::after,
+.custom-breadcrumb > li.active::after {
+    position: absolute;
+    border-left: 6px solid #e7e7e7;
+    top: 0;
+    right: -6px;
+}
+.custom-breadcrumb > li.active::after {
+    border-left: 6px solid $breadcrumb;
+}

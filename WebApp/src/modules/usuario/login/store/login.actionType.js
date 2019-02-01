@@ -1,0 +1,1 @@
+export const USER_LOGGED = "usuario.login.USER_LOGGED";

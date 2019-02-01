@@ -1,0 +1,732 @@
+table.table-volume tr th.narrowCustom,
+table.table-volume tr td.narrowCustom {
+    width: 24px;
+}
+
+table tr > td.table-placeholder,
+table tr > td.table-placeholder:hover {
+    text-align: center;
+    color: #cdcdcd !important;
+    background-color: #fafafa !important;
+}
+
+table {
+    table-layout: fixed;
+}
+
+table td {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.table-scroll {
+    overflow: auto;
+    max-height: 245px;
+    margin: 0 0 10px 0;
+}
+
+.table-scroll-small {
+    overflow: auto;
+    max-height: 120px !important; 
+    margin: 0 0 10px 0;
+}
+
+.table-scroll-tall {
+    overflow: auto;
+    max-height: 500px;
+    margin: 0 0 10px 0;
+}
+
+.table-apensados {
+    table-layout: fixed;
+    margin: 0;
+}
+
+.table-header-container {
+    position: relative;
+}
+
+.table-header-container > label {
+    margin: 0;
+}
+
+th.bigheader {
+    width: 45%;
+}
+
+th.mediumheader {
+    width: 25%;
+}
+
+th.smallheader {
+    width: 54px;
+}
+
+table.roteiro-table {
+    table-layout: auto;
+}
+
+.order-td div {
+    display: inline-block;
+    width: 10px;
+    height: 100%;
+    position: relative;
+}
+
+.order-td div i {
+    position: absolute;
+    cursor: pointer;
+}
+
+.order-td div i.fa-caret-up {
+    top: -2px;
+}
+
+.order-td div i.fa-caret-down {
+    bottom: 2px;
+}
+
+.order-td div i:only-child {
+    position: relative;
+    top: auto;
+    bottom: auto;
+}
+
+/*Processo*/
+.table-apensados td:nth-of-type(1),
+.table-apensados th:nth-of-type(1) {
+    width: 120px;
+}
+
+/*Ano*/
+.table-apensados td:nth-of-type(2),
+.table-apensados th:nth-of-type(2) {
+    width: 70px;
+}
+
+/*Qtd Volumes*/
+.table-apensados td:nth-of-type(3),
+.table-apensados th:nth-of-type(3) {
+    width: 94px;
+}
+
+/*Data Abertura*/
+.table-apensados td:nth-of-type(4),
+.table-apensados th:nth-of-type(4) {
+    width: 160px;
+}
+
+/*Requerente*/
+.table-apensados td:nth-of-type(5),
+.table-apensados th:nth-of-type(5) {
+    width: 260px;
+}
+
+.table-observacao {
+    table-layout: fixed;
+    margin: 0;
+}
+
+/*Usuario*/
+.table-observacao td:nth-of-type(1),
+.table-observacao th:nth-of-type(1) {
+    width: 210px;
+}
+
+/*Data*/
+.table-observacao td:nth-of-type(2),
+.table-observacao th:nth-of-type(2) {
+    width: 154px;
+}
+/*Observacao*/
+
+.table-observacao td:nth-of-type(3),
+.table-observacao th:nth-of-type(3) {
+    width: 750px;
+}
+
+.table-volume {
+    table-layout: fixed;
+    margin: 0;
+}
+/*Volume*/
+
+.table-volume td:nth-of-type(1),
+.table-volume th:nth-of-type(1) {
+    width: 60px;
+}
+/*Data*/
+
+.table-volume td:nth-of-type(2),
+.table-volume th:nth-of-type(2) {
+    width: 154px;
+}
+/*Ultima Folha*/
+
+.table-volume td:nth-of-type(3),
+.table-volume th:nth-of-type(3) {
+    width: 114px;
+}
+/*User Solicitante*/
+
+.table-volume td:nth-of-type(4),
+.table-volume th:nth-of-type(4) {
+    width: 260px;
+}
+/*orgao Solicitante*/
+
+.table-volume td:nth-of-type(5),
+.table-volume th:nth-of-type(5) {
+    width: 230px;
+}
+/*Responsavel*/
+
+.table-volume td:nth-of-type(6),
+.table-volume th:nth-of-type(6) {
+    width: 260px;
+}
+
+.table-volumeEmprestar {
+    table-layout: fixed;
+    margin: 0;
+}
+/*Checkbox*/
+
+.table-volumeEmprestar td:nth-of-type(1),
+.table-volumeEmprestar th:nth-of-type(1) {
+    width: 25px;
+}
+/*Volume*/
+
+.table-volumeEmprestar td:nth-of-type(2),
+.table-volumeEmprestar th:nth-of-type(2) {
+    width: 60px;
+}
+/*Data*/
+
+.table-volumeEmprestar td:nth-of-type(3),
+.table-volumeEmprestar th:nth-of-type(3) {
+    width: 160px;
+}
+/*Ultima Folha*/
+
+.table-volumeEmprestar td:nth-of-type(4),
+.table-volumeEmprestar th:nth-of-type(4) {
+    width: 60px;
+}
+/*Tipo Emprestimo*/
+
+.table-volumeEmprestar td:nth-of-type(5),
+.table-volumeEmprestar th:nth-of-type(5) {
+    width: 150px;
+}
+/*Emprestado Para*/
+
+.table-volumeEmprestar td:nth-of-type(6),
+.table-volumeEmprestar th:nth-of-type(6) {
+    width: 260px;
+}
+/*Data Emprestimo*/
+
+.table-volumeEmprestar td:nth-of-type(7),
+.table-volumeEmprestar th:nth-of-type(7) {
+    width: 160px;
+}
+/*Data Emprestimo*/
+
+.table-volumeEmprestar td:nth-of-type(8),
+.table-volumeEmprestar th:nth-of-type(8) {
+    width: 200px;
+}
+/*Ações*/
+
+.table-volumeEmprestar td:nth-of-type(9),
+.table-volumeEmprestar th:nth-of-type(9) {
+    width: 60px;
+}
+
+.table-desentranhar {
+    table-layout: fixed;
+    margin: 0;
+}
+/*Checkbox*/
+
+.table-desentranhar td:nth-of-type(1),
+.table-desentranhar th:nth-of-type(1) {
+    width: 25px;
+}
+/*Sigla*/
+
+.table-desentranhar td:nth-of-type(2),
+.table-desentranhar th:nth-of-type(2) {
+    width: 60px;
+}
+/*Documento*/
+
+.table-desentranhar td:nth-of-type(3),
+.table-desentranhar th:nth-of-type(3) {
+    width: 160px;
+}
+/*Nº Documento*/
+
+.table-desentranhar td:nth-of-type(4),
+.table-desentranhar th:nth-of-type(4) {
+    width: 70px;
+}
+/*Folhas*/
+
+.table-desentranhar td:nth-of-type(5),
+.table-desentranhar th:nth-of-type(5) {
+    width: 45px;
+}
+/*Nº Protocolo*/
+
+.table-desentranhar td:nth-of-type(6),
+.table-desentranhar th:nth-of-type(6) {
+    width: 100px;
+}
+/*Ano Juntada*/
+
+.table-desentranhar td:nth-of-type(7),
+.table-desentranhar th:nth-of-type(7) {
+    width: 50px;
+}
+/*Data Juntada*/
+
+.table-desentranhar td:nth-of-type(8),
+.table-desentranhar th:nth-of-type(8) {
+    width: 90px;
+}
+/*Data Confirm Juntada*/
+
+.table-desentranhar td:nth-of-type(9),
+.table-desentranhar th:nth-of-type(9) {
+    width: 90px;
+}
+/*Anexado por*/
+
+.table-desentranhar td:nth-of-type(10),
+.table-desentranhar th:nth-of-type(10) {
+    width: 100px;
+}
+/*Orgao Anexacao*/
+
+.table-desentranhar td:nth-of-type(11),
+.table-desentranhar th:nth-of-type(11) {
+    width: 140px;
+}
+
+.table-agenda {
+    table-layout: fixed;
+    margin: 0;
+}
+/*Processo*/
+
+.table-agenda td:nth-of-type(1),
+.table-agenda th:nth-of-type(1) {
+    width: 86px;
+}
+/*Ano*/
+
+.table-agenda td:nth-of-type(2),
+.table-agenda th:nth-of-type(2) {
+    width: 60px;
+}
+/*Data Abertura*/
+
+.table-agenda td:nth-of-type(3),
+.table-agenda th:nth-of-type(3) {
+    width: 154px;
+}
+/*Assunto*/
+
+.table-agenda td:nth-of-type(4),
+.table-agenda th:nth-of-type(4) {
+    width: 150px;
+}
+/*Requerente*/
+
+.table-agenda td:nth-of-type(5),
+.table-agenda th:nth-of-type(5) {
+    width: 110px;
+}
+/*Orgao Atual*/
+
+.table-agenda td:nth-of-type(6),
+.table-agenda th:nth-of-type(6) {
+    width: 155px;
+}
+/*Orgao Distribuicao*/
+
+.table-agenda td:nth-of-type(7),
+.table-agenda th:nth-of-type(7) {
+    width: 155px;
+}
+/*Is Arquivo Morto*/
+
+.table-agenda td:nth-of-type(8),
+.table-agenda th:nth-of-type(8) {
+    width: 60px;
+}
+/*Usuario Protocolou*/
+
+.table-agenda td:nth-of-type(9),
+.table-agenda th:nth-of-type(9) {
+    width: 112px;
+}
+/*Sigilo*/
+
+.table-agenda td:nth-of-type(10),
+.table-agenda th:nth-of-type(10) {
+    width: 54px;
+}
+
+/* Simulacao Resultados RH*/
+.table-rh-simulation {
+    table-layout: fixed;
+    margin: 0;
+}
+/*Sequencia*/
+
+.table-rh-simulation td:nth-of-type(1),
+.table-rh-simulation th:nth-of-type(1) {
+    width: 60px;
+}
+/*Verba*/
+
+.table-rh-simulation td:nth-of-type(2),
+.table-rh-simulation th:nth-of-type(2) {
+    width: 86px;
+}
+/*Titulo*/
+
+.table-rh-simulation td:nth-of-type(3),
+.table-rh-simulation th:nth-of-type(3) {
+    width: 500px;
+}
+/*Quantidade*/
+
+.table-rh-simulation td:nth-of-type(4),
+.table-rh-simulation th:nth-of-type(4) {
+    width: 86px;
+}
+/*Valor*/
+
+.table-rh-simulation td:nth-of-type(5),
+.table-rh-simulation th:nth-of-type(5) {
+    width: 110px;
+}
+
+.table-guia.head tr th,
+.table-agenda.head tr th,
+.table-rh-simulation.head tr th,
+.table-volume.head tr th,
+.table-volumeEmprestar.head tr th,
+.table-desentranhar.head tr th,
+.table-observacao.head tr th,
+.table-pendencia.head tr th,
+.table-apensados.head tr th {
+    background-color: $brand-primary !important;
+    vertical-align: middle;
+}
+
+.table-guia.head tr th:hover,
+.table-agenda.head tr th:hover,
+.table-rh-simulation.head tr th:hover,
+.table-volume.head tr th:hover,
+.table-pendencia.head tr th:hover,
+.table-volumeEmprestar.head tr th:hover,
+.table-desentranhar.head tr th:hover,
+.table-apensados.head tr th:hover {
+    background-color: lighten($brand-primary, 5%) !important;
+}
+
+.table-guia.head tr th a,
+.table-guia.head tr th span,
+.table-observacao.head tr th,
+.table-agenda.head tr th a,
+.table-agenda.head tr th span,
+.table-rh-simulation.head tr th a,
+.table-rh-simulation.head tr th span,
+.table-volume.head tr th a,
+.table-volume.head tr th span,
+.table-volumeEmprestar.head tr th a,
+.table-volumeEmprestar.head tr th span,
+.table-pendencia.head tr th a,
+.table-pendencia.head tr th span,
+.table-desentranhar.head tr th a,
+.table-desentranhar.head tr th span,
+.table-apensados.head tr th a,
+.table-apensados.head tr th span {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.table-agenda > tbody > tr > td,
+.table-rh-simulation > tbody > tr > td,
+.table-observacao > tbody > tr > td,
+.table-volume > tbody > tr > td,
+.table-pendencia > tbody > tr > td,
+.table-volumeEmprestar > tbody > tr > td,
+.table-desentranhar > tbody > tr > td,
+.table-apensados > tbody > tr > td {
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table-agenda > tbody > tr:hover > td,
+.table-rh-simulation > tbody > tr:hover > td,
+.table-volume > tbody > tr:hover > td,
+.table-pendencia > tbody > tr:hover > td,
+.table-volumeEmprestar > tbody > tr:hover > td,
+.table-desentranhar > tbody > tr:hover > td,
+.table-observacao > tbody > tr:hover > td,
+.table-apensados > tbody > tr:hover > td {
+    background-color: desaturate(lighten($brand-primary, 40%), 90%) !important;
+    color: #fafafa;
+}
+
+.table-agenda.head th.container-btn-action,
+.table-rh-simulation.head th.container-btn-action,
+.table-volume.head th.container-btn-action .table-pendencia.head th.container-btn-action .table-volumeEmprestar.head th.container-btn-action .table-desentranhar.head th.container-btn-action {
+    width: 27px;
+}
+
+.table-agenda > tbody > tr > td.container-btn-action,
+.table-rh-simulation > tbody > tr > td.container-btn-action,
+.table-observacao > tbody > tr > td.container-btn-action,
+.table-volume > tbody > tr > td.container-btn-action .table-pendencia > tbody > tr > td.container-btn-action .table-volumeEmprestar > tbody > tr > td.container-btn-action .table-desentranhar > tbody > tr > td.container-btn-action {
+    text-align: center !important;
+}
+
+.table-agenda > tbody > tr:nth-child(odd) > td,
+.table-rh-simulation > tbody > tr:nth-child(odd) > td,
+.table-observacao > tbody > tr:nth-child(odd) > td,
+.table-volume > tbody > tr:nth-child(odd) > td .table-pendencia > tbody > tr:nth-child(odd) > td .table-volumeEmprestar > tbody > tr:nth-child(odd) > td .table-desentranhar > tbody > tr:nth-child(odd) > td {
+    background-color: $form-bg;
+}
+
+.table-guia {
+    table-layout: fixed;
+}
+/*N.Parcela*/
+
+.table-guia td:nth-of-type(1),
+.table-guia th:nth-of-type(1) {
+    width: 80px;
+}
+/*Valor a pagar*/
+
+.table-guia td:nth-of-type(2),
+.table-guia th:nth-of-type(2) {
+    width: 154px;
+}
+/*Data Vencimento*/
+
+.table-guia td:nth-of-type(3),
+.table-guia th:nth-of-type(3) {
+    width: 130px;
+}
+/*Data Geracao Guia*/
+
+.table-guia td:nth-of-type(3),
+.table-guia th:nth-of-type(3) {
+    width: 150px;
+}
+/*Data Vencimento*/
+
+.table-guia td:nth-of-type(3),
+.table-guia th:nth-of-type(3) {
+    width: 130px;
+}
+/*Data Vencimento*/
+
+.table-guia td:nth-of-type(3),
+.table-guia th:nth-of-type(3) {
+    width: 130px;
+}
+/*Data Vencimento*/
+
+.table-guia td:nth-of-type(3),
+.table-guia th:nth-of-type(3) {
+    width: 130px;
+}
+/*Data Vencimento*/
+
+.table-guia td:nth-of-type(3),
+.table-guia th:nth-of-type(3) {
+    width: 130px;
+}
+
+.table-contacts {
+    margin-top: 15px;
+}
+
+.table-contacts > tbody > tr > td {
+    border: 1px solid lighten(desaturate($brand-primary, 80%), 60%);
+}
+
+.table-contacts thead tr th,
+.table-agenda thead tr th {
+    background-color: lighten(desaturate($brand-primary, 85%), 70%);
+    border: solid 1px lighten(desaturate($brand-primary, 80%), 60%) !important;
+    font-weight: normal;
+    color: $brand-primary;
+    white-space: nowrap;
+}
+
+.table-grid thead tr.success th {
+    color: #fafafa;
+    white-space: nowrap;
+}
+
+.table-grid tr td {
+    color: #3a3a3a;
+}
+
+.table-grid thead tr.success th.checkbox-each,
+.table-grid thead tr.success th.checkbox-all {
+    width: 27px;
+}
+
+.table-grid thead tr.success th.action-column {
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.table-grid th i.fa {
+    font-size: 1.5em;
+    color: #fafafa;
+}
+
+.table-grid th > label {
+    margin: 0;
+}
+
+.table-grid th i.fa.filtered {
+    color: #050505;
+}
+
+.table > thead > tr > .dynamic-table-header {
+    height: 36px;
+    padding-left: 8px;
+    padding-right: 8px;
+    cursor: move;
+    position: relative;
+}
+
+.table thead tr th.dropHover {
+    background-color: darken($brand-primary, 10%);
+    cursor: alias;
+}
+
+.table thead tr th > i,
+.table thead tr th.dropHover > i {
+    position: absolute;
+    display: none;
+    top: 73px;
+    margin-left: -19px;
+    font-size: 34px;
+    color: desaturate(lighten($brand-primary, 10%), 5%);
+}
+
+.table thead tr th.dropHover > i {
+    display: block;
+}
+
+.table > thead > tr > .dynamic-table-header:hover {
+    background-color: darken($brand-primary, 5%);
+}
+
+.page-size-selector {
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.table-processo-view {
+    margin: 0;
+    white-space: nowrap;
+    table-layout: auto;
+}
+
+.table-processo-info {
+    margin: 0;
+    table-layout: fixed;
+}
+
+.table-processo-info td,
+.table-processo-info th,
+.table-processo-view td,
+.table-processo-view th {
+    width: 40px;
+}
+
+.table-processo-info.head tr th,
+.table-processo-view.head tr th {
+    background-color: darken($brand-primary, 5%) !important;
+    vertical-align: middle;
+}
+
+.table-processo-info.head tr th:hover,
+.table-processo-view.head tr th:hover {
+    background-color: lighten($brand-primary, 10%) !important;
+}
+
+.table-processo-info.head tr th a,
+.table-processo-info.head tr th span,
+.table-processo-view.head tr th a,
+.table-processo-view.head tr th span {
+    color: #fafafa;
+    text-decoration: none;
+}
+
+.table-processo-info > tbody > tr > td,
+.table-processo-view > tbody > tr > td {
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px;
+}
+
+.table-processo-info > tbody > tr:hover > td,
+.table-processo-view > tbody > tr:hover > td {
+    background-color: desaturate(lighten($brand-primary, 40%), 90%) !important;
+    color: #fafafa;
+}
+
+.table-processo-info.head th.container-btn-action,
+.table-processo-view.head th.container-btn-action {
+    width: 11px;
+}
+
+.table-processo-info > tbody > tr > td.container-btn-action,
+.table-processo-view > tbody > tr > td.container-btn-action {
+    text-align: center !important;
+}
+
+.table-processo-view > tbody > tr > td {
+    background-color: #fff;
+}
+
+.table-processo-info > tbody > tr:nth-child(odd) > td,
+.table-processo-view > tbody > tr:nth-child(odd) > td {
+    background-color: $form-bg;
+}
+
+.table-etiquetas {
+    margin: auto;
+    width: 318px;
+    height: 450px;
+}
+
+.table-etiquetas tr td {
+    padding: 0px 1px;
+}
+
+td.scroll-x {
+    overflow-x: scroll;
+}

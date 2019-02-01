@@ -1,0 +1,51 @@
+.bigmodal {
+    height: 450px;
+}
+
+.modal {
+    overflow: auto;
+    display: block;
+}
+
+.modal-content {
+    padding: $modal-content-padding;
+}
+.modal-header {
+    padding: 10px;
+}
+.modal-footer {
+    margin-top: 4px;
+    padding: 10px 20px 10px;
+}
+.modal-content .container {
+    padding: 0 15px 15px 15px;
+}
+.modal-content .box-form-cadastro {
+    background-color: #ffffff;
+}
+.modal-footer .btn-forms .btn-cancel,
+.modal-footer .btn-forms .btn-primary {
+    margin: 0;
+}
+.modal-body{
+    word-wrap:break-word;
+}
+.modal-body .container-buttons {
+    line-height: 1.6em;
+    margin-bottom: 10px;
+    text-align: right;
+}
+.modal-body .container-buttons a.btn-custom {
+    font-size: 1em;
+    display: inline-block;
+    padding: 6px 8px;
+    color: #fafafa;
+    background-color: $brand-primary;
+    @include border-radius(4px);
+}
+.modal-body .container-actions .action-column .action-head {
+    padding-bottom: 10px;
+}
+.modal-confirmacao .box-form-cadastro h2 {
+    margin-left: 15px;
+}

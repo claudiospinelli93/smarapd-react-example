@@ -1,0 +1,300 @@
+// $what?
+.box-fixedheight {
+  overflow: auto;
+  max-height: 175px;
+  margin-top: 10px;
+  border-top: 1px solid;
+  border-top-color: $brand-primary-light;
+}
+.box-fixedmediumheight {
+  overflow: auto;
+  max-height: 250px;
+}
+.box-fixedhighheight {
+  overflow: auto;
+  max-height: 500px;
+  margin-top: 10px;
+  border-top: 1px solid $brand-primary-light;
+}
+
+div.scrollColumn {
+    overflow: hidden;
+}
+
+.white-background {
+    background-color: white;
+}
+.separator {
+    position: absolute;
+    display: inline-block;
+    height: 94%;
+    border: 1px solid #DFDFDF;
+    left: 50%;
+}
+
+ul.inline {
+  margin-top: 3px;
+}
+
+ul.inline > li {
+    display: inline;
+    margin-right: 60px;
+    min-width: 300px;
+}
+
+div.assuntoInformacaoHtml {
+    padding: 20px;
+}
+
+td.grid-item {
+    padding-top: 9px;
+    height: 36px;
+}
+
+div.container-nav {
+    display: inline-block;
+    width: 100%;
+}
+
+.container-table-agenda,
+.container-table-apensados {
+    margin: 10px 0 5px 0;
+}
+
+.container-actions {
+    display: inline-block;
+    float: left;
+    max-width:7%;
+}
+
+.container-actions table tr td {
+    padding-top: 8px;
+}
+
+.container-actions table tbody tr td {
+    height: 36px;
+}
+
+.container-grid {
+    max-width: 93%;
+    display: inline-block;
+    float: left;
+}
+
+.container-grid > .wrapper-grid {
+    overflow-x: scroll;
+}
+
+th.action-column.action-head {
+    height: 36px;
+}
+
+td.action-item {
+    overflow: visible;
+}
+
+div.container-all {
+    display: block;
+}
+
+.process-choose-type .btn-primary {
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+}
+
+div.pull-bottom-inline {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+div.min-inline {
+    display: inline-block;
+    min-width: 78%;
+}
+
+div.view-row {
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.filter-container {
+    position: relative;
+    top: -30px;
+    z-index: 10000;
+}
+
+.filter-container .form-control {
+    display: inline-block;
+    max-width: 250px;
+}
+
+.container-ordenation {
+    min-height: 20px;
+    border: solid 1px #fafafa;
+    margin-bottom: 5px;
+}
+
+.box-fitro-look-up .col-xs-2 label,
+.box-fitro-look-up .col-xs-2 select {
+    margin-left: 42px;
+}
+
+table.table-lookUp tr:first-child th:first-child {
+    width: 4px;
+}
+
+.box-icons {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 14px;
+}
+
+.box-icons i {
+    display: block;
+}
+
+.btn-link {
+    margin-right: 0;
+}
+
+
+.invalidLogin {
+    color: darken($brand-danger, 10%);
+}
+
+.compatible-browser-list {
+    list-style: initial;
+}
+
+
+// $what?
+.textarea-view {
+    width: 100%;
+    min-height: 100%;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 1px;
+    border: 1px solid $form-bg;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    max-height: 250px;
+    overflow-y: auto;
+    line-height: 18px;    
+}
+
+// $what?
+.download-button {
+    color: darken(desaturate($brand-primary, 5%), 5%);
+}
+
+// $what?
+.animate-show {
+    line-height: 20px;
+    opacity: 1;
+    padding: 0;
+}
+.animate-show .accordion-inner{
+    overflow: hidden;
+    margin: 0;
+}
+.animate-show.ng-hide-add.ng-hide-add-active,
+.animate-show.ng-hide-remove.ng-hide-remove-active {
+    @include transition(all linear .5s);
+}
+.animate-show.ng-hide {
+    line-height: 0;
+    opacity: 0;
+    padding: 0 10px;
+    display: block !important;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+// $what?
+.box-form-cadastro .btn-forms .btn-cancel.noMarginRight,
+.box-form-cadastro .btn-forms .btn-primary.noMarginRight {
+    margin-right: 0;
+}
+
+// $what?
+span.yes {
+    color: darken(desaturate($brand-success, 15%), 15%);
+    font-size: 18px;
+    font-weight: bold;
+}
+span.no {
+    color: darken($brand-danger, 15%);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+// $what?
+.grid-audit {
+  margin-left: auto;
+  margin-right: auto;  
+  padding: 0px;
+}
+.switch-audit {
+  float: right;
+  padding-left: 100px;
+}
+.header-audit {
+  font-size: 18px;
+}
+.label-table-audit {
+  font-size: 15px;
+}
+table.table-no-padding > tbody > tr > td {
+  padding: 0px 6px 0px 6px !important;
+}
+
+// $what?
+.col-center-block {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// $what?
+.func-subtitle {
+    color: #808080;
+    padding-top: .25em;
+    padding-bottom: .25em;
+}
+
+// $what?
+.wrapper-grid {
+  min-height: 374px;
+  text-align: center;
+}
+.wrapper-filterView {
+  overflow-y: auto;
+  height: 335px;
+}
+
+// $what?
+.adjust-arrow-left,
+.adjust-arrow-right {
+    height: 44px; 
+    color: darken(desaturate($brand-success, 15%), 15%);
+}
+.adjust-arrow-left {
+  width: 25px;
+  margin-left: -5px;
+}
+.adjust-arrow-right {
+  margin-right: -4px;
+  z-index: 99;
+  text-align: right;
+}
+
+// $what?
+.hover-trash {
+  color: darken(desaturate($brand-danger, 10%), 10%);
+  @include opacity(1);
+}

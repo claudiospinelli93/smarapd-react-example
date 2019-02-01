@@ -1,0 +1,37 @@
+.rep-success {
+    color: $brand-success;
+}
+
+.rep-error {
+    color: $brand-danger;
+}
+
+
+.row-relatorio-relatorio {
+    font-size: 1em;
+    margin-left: 1px;
+    margin-right: 1px;
+    line-height: 20px;
+}
+
+.row-relatorio-list:hover, .row-relatorio-list label:hover {
+    background-color: $dropdown-link-hover-color;
+    cursor: pointer;
+}
+
+.relatorio-list-title label {
+    color: $brand-primary;
+    padding: 10px;
+}
+
+.relatorio-list-title hr.faded {
+    margin: 0px;
+}
+
+.row-relatorio-relatorio label {
+    padding: 10px;
+}
+
+.row-relatorio-list hr.faded {
+    margin: 0px;
+}

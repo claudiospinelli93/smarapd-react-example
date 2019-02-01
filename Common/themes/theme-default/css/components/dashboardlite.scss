@@ -1,0 +1,43 @@
+﻿.container-squad {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.squad {
+    cursor: default;
+    float: left;
+    width: 195px;
+    height: 118px;
+    padding-left: 20px !important;
+    padding-top: 25px !important;
+    padding-bottom: 10px !important;
+    background-color: #036F5A;
+    margin-bottom: 20px;
+}
+
+.squad .titulo {
+    margin-bottom: 10px !important;
+    width: 100% !important;
+}
+
+.squad .descricao h1 {
+    font-size: 1.4em;
+    color: #e3e9eb;
+}
+
+.squad h5 {
+    color: #e3e9eb;
+}
+
+.squad h6 {
+    color: #e3e9eb;
+}
+
+.icon-triangle-dash {
+    border-top: 58px solid transparent;
+    border-left: 30px solid #036f5a;
+    border-bottom: 59px solid transparent;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}

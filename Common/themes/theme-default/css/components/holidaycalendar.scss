@@ -1,0 +1,185 @@
+﻿.day-lg {
+    width:135px; 
+    height: 85px;
+}
+
+.month-lg {
+    width:316px; 
+    height: 85px;
+}
+
+.year-lg {
+    width:190px; 
+    height: 85px;
+}
+
+.month-bar {
+    vertical-align: top;
+}
+
+.year-bar {
+    vertical-align: top;
+}
+
+
+.day-of-week{
+    display: block;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.bt-fat{
+    height: 50px;
+}
+
+
+.margin-center{
+    margin: 0 auto;
+}
+
+.header-label{
+    font-size: 18px;
+}
+
+.day-lg:hover .day-info {
+    display: inline-block;
+}
+
+.day-info {
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    min-width: 197px;
+    background-color: #fafafa;
+    display: none;
+    border: 3px solid #bbb;
+    text-align: left;
+    @include border-radius(4px 4px 0 0);
+    width: 280px;
+    padding-bottom:8px;
+}
+
+.day-info label{
+    height: 10px;
+}
+
+.day-info:after, .day-info:before {
+	bottom: 100%;
+	left: 50%;
+	border: 3px solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.day-info:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: #fafafa;
+	border-width: 30px;
+	margin-left: -30px;
+}
+.day-info:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-bottom-color: #bbb;
+	border-width: 36px;
+	margin-left: -36px;
+}
+
+.btn .btn-day-info{
+    height: 35px;
+}
+
+.right{
+    float: right;
+}
+
+.checkbox-small{
+    height: 11px;
+    width: 11px;
+}
+
+button.bankless {
+    background-color: lighten($brand-primary, 5%);
+    color: white;   
+}
+
+button.bankless.disabled {
+    color: #ccc;   
+}
+
+button.bankless:hover {
+    background-color: lighten(lighten($brand-primary, 5%), 5%);
+    color: white;   
+}
+
+
+button.holiday {
+    background-color: $brand-primary;
+    color: white;   
+}
+
+button.holiday:hover {
+    background-color: lighten($brand-primary, 5%);
+    color: white;   
+}
+
+button.recurrent div{
+    position: relative;
+}
+
+button.recurrent div i{
+    right: 0;
+    position: absolute;
+    display: inline-block;
+}
+
+
+button hr{
+  border-color: #FFF;
+  width: 40px;
+  border-width: 10px;
+  float: left;
+  display: block;
+  clear: both;
+  margin: 2px 1px 0 0;
+}
+
+button.active hr{
+  border-color: #e6e6e6;
+  width: 40px;
+  border-width: 10px;
+  float: left;
+  display: block;
+  clear: both;
+  margin: 2px 1px 0 0;
+}
+
+
+button:hover hr{
+  border-color: #e6e6e6;
+  width: 40px;
+  border-width: 10px;
+  float: left;
+  display: block;
+  clear: both;
+  margin: 2px 1px 0 0;
+}
+
+.full button hr:first-child{
+  border-color: red;
+  width: 40px;
+  border-width: 10px;
+  float: left;
+  display: block;
+  clear: both;
+  margin: 2px 1px 0 0;
+}
+
+button i.feriado-bancario{
+    display: none;
+}
+button i.recorrente{
+    display: none;
+}

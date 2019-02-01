@@ -1,0 +1,212 @@
+// Main app container
+.container-main {
+    position: relative;
+    z-index: 100;
+}
+
+.container {
+    min-width: 1170px; /* FIXME: para evitar quebras em NO */    
+}
+
+// Container licenca 
+.license-container {
+    margin-top: 20px;
+}
+.license-container form {
+    width: 745px;
+    margin: 0 auto;
+    padding: 15px 15px 0 15px;
+    background-color: $brand-primary-light;
+    border: 1px solid darken($brand-primary-light, 10%);
+    @include border-radius(5px);
+    @include box-shadow(-1px 1px 2px rgba(0, 0, 0, 0.30));
+}
+.license-container .main-logo {
+    width: 745px;
+    margin: 0 auto;
+    text-align: center;
+}
+.license-container label {
+    padding-bottom: 1px;
+    padding-top: 7px;
+}
+
+// Container - Barra fixa de acoes da Grid
+.container-btn-action {
+  text-align: left;
+}
+.container-btn-action li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 5px;
+}
+.container-btn-action li i {
+  font-size: 1em;
+}
+.container-btn-action li i.fa-times {
+  color: desaturate(darken($brand-danger, 10%), 10%);
+}
+.container-btn-action li i.fa-edit {
+  color: darken($brand-primary, 10%);
+}
+.container-btn-action li i.enable {}
+.container-btn-action li i.disable {
+  color: desaturate(darken($brand-danger, 15%), 20%);
+}
+.container-actions {
+    display: inline-block;
+    vertical-align: top;
+}
+.container-actions table tr td {
+    padding-top: 9px;
+}
+.container-actions table tbody tr td {
+    height: 34px;
+}
+
+// Container - ordenacao da Grid
+.ordering-container {
+  background-color: #f0f0f0;
+  margin-bottom: 6px;
+  @include border-radius(4px);
+}
+.ordering-container label,
+.ordering-container ul,
+.ordering-container li,
+.ordering-container .ordering-trash,
+.ordering-container .ordering-trash-undo {
+  display: inline-block;
+  vertical-align: middle;
+}
+.ordering-container label {
+  padding: .8em .5em .8em 1.2em;
+  color: #3a3a3a;
+}
+.ordering-container ul {
+  max-width: 980px;
+}
+.ordering-container li {
+  position: relative;
+  border: 1px solid #ccc;
+  margin-right: 6px;
+  @include border-radius(4px);
+}
+.ordering-container li:hover {
+  background-color: #e7e7e7;
+  border: dotted 1px $brand-primary-dark;
+}
+.ordering-container li > a {
+  padding: .4em .8em;
+}
+.ordering-container li:hover > a:first-child {
+  color: darken($brand-primary, 15%);
+  cursor: move;
+}
+.ordering-container li .btn-small {
+  display: inline-block;
+  vertical-align: bottom;
+}
+.ordering-container li .btn-remove {
+  background-color: $brand-primary-dark;
+  color: #fafafa;
+  padding: 3px;
+  font-size: .5em;
+  display: block;
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  @include border-radius(4px);
+}
+.ordering-container li .btn-remove:hover {
+  background-color: desaturate(darken($brand-danger, 5%), 5%);
+}
+.ordering-container a,
+.ordering-container a:active {
+  color: rgba(0, 0, 0, .5);
+}
+.ordering-container a span {
+  margin-left: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.ordering-container li:hover > a.btn-remove {
+  color: #fafafa;
+}
+.ordering-container a:hover {
+  text-decoration: none;
+}
+.ordering-container-hover {
+  background-color: #E6E6E6;
+}
+.ordering-trash,
+.ordering-trash-undo {
+  font-size: 1.2em;
+  color: rgba(0, 0, 0, .25);
+  padding-top: .8em;
+  @include transition(all 0.5ms linear);
+}
+.ordering-trash-undo {
+  display: inline-block;
+  padding: .4em 0 .4em .8em;
+}
+.ordering-trash-undo:focus,
+.ordering-trash-undo:hover,
+.ordering-trash:focus,
+.ordering-trash:hover {
+  color: darken($brand-primary, 10%);
+  @include opacity(1);
+}
+.ordering-container li.drop-hover-pills {
+  background-color: #3a3a3a;
+}
+.ordering-container li.drop-hover-pills a {
+  color: #fafafa;
+}
+
+.browser-not-supported {
+  width: 625px;
+  margin: 70px auto auto;
+  text-align: center;
+  font-size: 1.2em;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.login-container .form.not-supported-message {
+  padding-bottom: 15px;
+}
+
+.not-supported-message .compatible-browser-list {
+  margin-top: 15px;
+  margin-left: 30px;
+  line-height: 20px;
+}
+
+.assinatura-preview {
+  width: 350px;
+  height: 200px;
+  overflow: hidden;
+  display: inline-block;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  text-align: center;
+  line-height: 200px;
+}
+
+.assinatura-preview img{
+  max-width: 330px;
+  max-height: 180px;
+}
+
+.assinatura-actions {
+  display: inline;
+  position: absolute;
+  bottom: 3px;
+  right: 40px;
+}
+
+
+.upload img {
+    max-width: 375px;
+    max-height: 245px;
+}

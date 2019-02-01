@@ -1,0 +1,73 @@
+﻿.table-vue {
+    color: #000000;
+    width: 100%;
+    cursor: default;
+}
+.table-vue thead {
+    vertical-align: -webkit-baseline-middle
+}
+.table-vue th {
+    color: $brand-primary;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.table-vue td {
+    vertical-align: middle;
+    height: 50px;
+    border-color: $brand-primary;
+    border-top: 1px;
+    border-style: dotted solid dashed double;
+}
+
+.table-vue th, .table-vue td {
+    min-width: 120px;
+    padding-left: 20px;
+    cursor: default;
+}
+
+.table-vue .check {
+    width: 30px;
+    padding-left: 10px;
+}
+
+.table-vue th.active {
+    color: #fff;
+}
+
+.table-vue .arrow {
+    opacity: 1;
+}
+
+.table-vue .vue-action {
+    cursor: pointer;
+}
+
+.table-vue .vue-action:hover {
+    color: #bbb;
+}
+
+.table-vue .actions {
+    width: 120px;
+}
+
+.table-vue .icon {
+    padding-right: 5px
+}
+
+.table-vue .notrecord {
+    margin: unset;
+    border: unset;
+    height: 5px;
+    text-align: center;
+}
+
+.table-vue .hrtablevue {
+    margin: unset;
+    margin-bottom: 15px;
+}

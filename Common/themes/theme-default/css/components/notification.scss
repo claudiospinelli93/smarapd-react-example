@@ -1,0 +1,81 @@
+.badge.notification {
+    padding: 3px 6px;
+    font-size: 10px;
+    background-color: $brand-primary;
+    border-radius: 100px;
+    position: absolute;
+}
+
+.areaNotificacao {
+    width: 400px;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.notificationFooter {
+    padding: 0px;
+    text-align: center;
+    border-style: outset;
+    border-width: 1px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.novaNotificacao {
+    box-shadow: inset 0 2px 3px 0 rgba(255, 250, 250, 1), inset 0 -3px 6px 0 rgba(0, 0, 0, 0), 0 3px 2px 0 rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(to bottom, #E7E7E7, #FFFFFF 130%);
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
+.notification-header {
+    border-bottom: solid 1px #ccc;
+}
+
+.notificacao-item {
+    padding: 5px;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    border-bottom: dashed 1px #ccc;
+    margin: 10px;
+    margin-bottom: 0px;
+    text-align: justify;
+}
+
+.notificacao-item:hover {
+    background-color: #fff;
+}
+
+.notificacao-item a:hover {
+    text-decoration: none;
+}
+
+.notificacao-item-detail {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.notificacao-item-new {
+    font-weight: 600;
+}
+
+.notificacao-item-footer span {
+    font-size: 0.7em;
+    color: #808080;
+}
+
+.notification-footer {
+    background-color: $brand-primary;
+    width: 180px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+
+.notification-footer span {
+    color: white;
+}

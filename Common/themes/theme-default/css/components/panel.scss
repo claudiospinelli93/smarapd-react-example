@@ -1,0 +1,28 @@
+.panel-green{
+    background-color: $painel-green-bg !important;
+    color: $painel-green-text;
+    border-color:$painel-green-bg;
+}
+
+.panel-primary{
+    background-color: $panel-primary-heading-bg !important;
+    color: red;
+    border-color:$panel-primary-heading-bg;
+}
+.panel-primary a{
+    color:$panel-primary-text;
+}
+
+.panel-primary {
+  @include panel-variant-hover($panel-primary-border, $panel-primary-text, $panel-primary-heading-bg, $panel-primary-border);
+}
+
+.panel-primary .panel-heading {
+    min-height: 48px;
+    height: 48px;
+    text-align: center;
+}
+
+.panel-green {
+    @include panel-variant-hover($painel-green-bg, $painel-green-text, $painel-green-bg, $painel-green-bg);
+}

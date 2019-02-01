@@ -1,0 +1,31 @@
+header {
+    margin: 0 0 10px 0;
+    background-color: #F3F3F3;
+    min-height: 44px;
+    position: relative;
+    z-index: 250;
+}
+header .container {
+    position: relative;
+    min-width: 1170px; /* FIXME: valor anterior = 1155 */
+}
+.header-logo {
+    position: absolute;
+    top: 3px;
+    left: 20px;
+    cursor: pointer;
+    height: 40px;
+}
+.header-logo img{
+    height: 40px;
+}
+.logo {
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.topo {
+    min-height: 8px;
+    margin-top: 10px;
+    position: relative;
+}

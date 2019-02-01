@@ -1,0 +1,19 @@
+.termoaceite {
+    overflow-y: auto;
+    max-height: 280px;
+    padding-right: 10px;
+}
+
+.termoaceite > p {
+    display: block !important;
+    margin: 0 0 1em !important;
+    padding: 0 .2em !important;
+    -webkit-margin-before: 1em !important;
+    -webkit-margin-after: 1.2em !important;
+    -webkit-margin-start: 0px !important;
+    -webkit-margin-end: 0px !important;
+}
+
+.termoaceite > p:empty {
+    height: 15px;
+}

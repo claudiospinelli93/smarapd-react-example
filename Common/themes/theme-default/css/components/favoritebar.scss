@@ -1,0 +1,47 @@
+.favouriteContainer {
+    background-color: #F3F3F3;
+    text-align: center;
+}
+.favouriteContainer .btn-group {
+    top: 0px;    
+    vertical-align: middle;    
+}
+.favouriteContainer .carousel-inner {
+    width: 95%;
+    min-height: 0px;
+}
+.favouriteContainer .carousel-inner>.item {
+    width: 100%;
+}
+.favouriteContainer .btn-group .btn.btn-next-menu,
+.favouriteContainer .btn-group .btn.btn-prev-menu {
+    height: 20px;
+    padding-top: 0px;
+}
+.favouriteList {
+    padding: 10px;
+    margin-top: -11px;
+    list-style: none;
+    color: #050505;
+}
+.favouriteList > li{
+    display: inline-block;   
+}
+.favouriteList a {
+    color: #3f3f3f;
+}
+.favouriteIcon,
+.favorite .fa.fa-star {
+    color: #FFC125;
+}
+.favouriteItem {
+    margin-right: 13px;
+    display: inline-block !important;
+}
+.favorite-content i {
+    color: #050505;
+}
+.favoriteRemove {
+    color: #B13333;
+    font-size: 10px !important;
+}

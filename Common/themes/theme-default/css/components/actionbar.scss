@@ -1,0 +1,33 @@
+.action-bar {
+    margin-bottom: 5px;
+}
+.action-bar a.btn-custom {
+    font-size: 1em;
+    display: inline-block;
+    padding: 6px 8px;
+    cursor: pointer;
+    color: #fafafa;
+    background-color: $brand-primary;
+    @include border-radius(4px);
+}
+.action-bar .dropdown {
+    display: inline-block;
+    vertical-align: top;
+}
+.action-bar a.btn-custom {
+    padding: 6px 10px;
+    font-size: 1em;
+    text-decoration: none;
+}
+.action-bar a.btn-custom:focus,
+.action-bar a.btn-custom:hover {
+    background-color: darken($brand-primary, 5%);
+}
+.action-bar a:hover {
+    text-decoration: none;
+}
+.action-bar .btn:hover,
+.action-bar .btn:focus {
+    color: darken($brand-primary, 5%);
+    text-decoration: none;
+}

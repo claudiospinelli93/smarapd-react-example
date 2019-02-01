@@ -1,0 +1,27 @@
+.accordion {
+    margin-top: 15px;
+}
+.accordion-group {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 1px solid $brand-primary;
+}
+.accordion-group,
+.accordion-heading > a {
+    @include border-radius(5px);
+}
+.accordion-heading > a {
+    color: #fafafa;
+    display: block;
+    padding: 15px;
+    background-color: $brand-primary;
+}
+.accordion-heading > a:focus,
+.accordion-heading > a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: lighten($brand-primary, 5%);
+}
+.accordion-inner {
+    margin: 15px 10px;
+}

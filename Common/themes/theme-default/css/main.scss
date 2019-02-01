@@ -1,0 +1,130 @@
+// Theme variables
+$brand-primary: #036f5a;
+$brand-success: #57c445;
+$brand-info: #5bc0de;
+$brand-warning: #f0ad4e;
+$brand-danger: #a7372b;
+$login-frame: #d7e0e2;
+$breadcrumb: #d7e0e2;
+$form-bg: #d7e0e2;
+
+
+$theme-colors: (
+  "primary": #036f5a,
+  "danger": #ff4136
+);
+
+$body-bg: #000;
+
+// Primary color variances
+$brand-primary-grey: desaturate(darken($brand-primary, 15%), 50%);
+$brand-primary-dark: desaturate(darken($brand-primary, 40%), 50%);
+$brand-primary-light: desaturate(lighten($brand-primary, 65%), 40%);
+$brand-primary-white: desaturate(lighten($brand-primary-light, 25%), 15%);
+
+// Container sizing
+$container-large-desktop: 1260px;
+
+// Global textual link color
+$link-color: $brand-primary;
+$link-hover-color: darken($link-color, 15%);
+$dropdown-link-hover-bg: $brand-primary;
+$dropdown-link-hover-color: #fafafa;
+
+$btn-primary-bg: $brand-success;
+$panel-primary-heading-bg: $form-bg;
+
+// Header menu sizing controls
+$nav-header-submenu-width: auto;
+$nav-header-submenu2nd-width: auto;
+$nav-header-submenu-line-height: 1.5;
+
+// Header submenu sizing controls
+$nav-header-submenu-item-link-padding: 8px 55px 8px 12px;
+$nav-header-submenu-item-link-font-size: 0.9em;
+
+// Well
+$well-bg: lighten($form-bg, 4%);
+$well-padding: 5px;
+
+// Modal
+$modal-content-padding: 0 15px 10px;
+$modal-lg: 1200px;
+
+// Tooltips
+$tooltip-padding: 10px 15px;
+$tooltip-bg: $brand-primary-grey;
+
+// Pagination
+$pagination-color: #fafafa;
+$pagination-bg: $link-color;
+$pagination-border: $link-color;
+
+$pagination-hover-color: #fafafa;
+$pagination-hover-bg: $link-hover-color;
+$pagination-hover-border: $link-hover-color;
+
+$pagination-active-color: #fafafa;
+$pagination-active-bg: darken($link-color, 5%);
+$pagination-active-border: $brand-primary;
+
+$pagination-disabled-color: #f0f0f0;
+$pagination-disabled-bg: lighten($link-color, 5%);
+$pagination-disabled-border: lighten($link-color, 5%);
+
+// Panels
+$painel-green-bg: #d7e0e2;
+$painel-green-text: #036f5a;
+$panel-default-border: saturate(darken($brand-primary-light, 5%), 5%);
+
+// Tables
+$table-cell-padding: 6px;
+$table-border-color: desaturate(lighten($form-bg, 25%), 15%);
+
+$icon-font-path: "../../libs/bootstrap/fonts/";
+
+//KendoUI Components
+@import "base/overrides_kendoui.scss";
+@import "../../../node_modules/@progress/kendo-theme-default/scss/all";
+
+
+// Theme
+@import "base/mixins.scss";
+@import "base/reset.scss";
+@import "base/base.scss";
+@import "base/overrides_bootstrap.scss";
+
+// Components
+$components-folder: "../../theme-default/css/components";
+@import "components/actionbar.scss";
+@import "components/loading.scss";
+@import "components/header.scss";
+@import "components/menu.scss";
+@import "components/favoritebar.scss";
+@import "components/breadcrumb.scss";
+@import "components/grid.scss";
+@import "components/tables.scss";
+@import "components/pagination.scss";
+@import "components/form.scss";
+@import "components/modal.scss";
+@import "components/login.scss";
+@import "components/accordion.scss";
+@import "components/tabs.scss";
+@import "components/buttons.scss";
+@import "components/wizard.scss";
+@import "components/containers.scss";
+@import "components/switches.scss";
+@import "components/unidadegestorainfo.scss";
+@import "components/notification.scss";
+@import "components/tag.scss";
+@import "components/toast.scss";
+// @import "components/panel.scss";
+@import "components/rating-icons.scss";
+@import "components/nz-toggle.scss";
+
+// To fix adjustments
+@import "base/fixme.scss";
+
+// Custom theme adjustments
+@import "base/custom.scss";
+

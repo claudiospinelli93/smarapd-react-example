@@ -1,0 +1,264 @@
+﻿.step-container {
+    width: 100%;
+    margin: auto;
+    border: 1px solid $brand-primary;
+    margin-top: 12px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 10px;
+    .step-rules, .add-rule-button {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .step-number {
+        border-bottom: 1px solid $brand-primary;
+        padding: 5px 10px;
+        background-color: $pagination-active-bg;
+        label {
+            color: #fff;
+            font-size: 1.7em;
+        }
+    }
+}
+
+.rule-card {
+    border: 1px solid #dddddd;
+    background-color: $form-bg;
+    border-radius: 5px;
+    width: 158px;
+    height: 120px;
+    display: inline-block;
+    padding: 4px;
+    margin: 10px 0 0 10px;
+    vertical-align: middle;
+    position: relative;
+    &:hover .edit {
+        display: block;
+        text-align: center;
+        width: 148px;
+    }
+    .btn {
+        font-size: 13px;
+        height: 28px;
+    }
+    small {
+        display: block;
+    }
+}
+
+.add-step-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    &.btn-forms .btn.btn-primary {
+        margin-right: 0;
+        margin-left: 5px;
+    }
+}
+
+.add-rule-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    .btn {
+        height: 28px;
+    }
+}
+
+.edit {
+    margin: 2px 2px 0 0;
+    display: none;
+    position: absolute;
+    bottom: 6px;
+}
+
+.bigmodal {
+    height: 450px;
+}
+
+.modal {
+    overflow: auto;
+    display: block;
+}
+.operand, .operator{
+    display: inline-block;
+}
+
+.operand .form-control,
+.operator .form-control,
+.if-condition .form-control{
+    height : 33px !important;
+}
+
+.modal-content {
+    padding: 10px;
+    .container {
+        padding: 0 15px 15px 15px;
+    }
+    .box-form-cadastro {
+        background-color: #ffffff;
+    }
+}
+.modal-header {
+    padding: 10px;
+}
+.modal-footer {
+    margin-top: 4px;
+    padding: 20px 10px 10px;
+    &.btn-forms .btn-cancel, &.btn-forms .btn-primary {
+        margin: 0 0 0 10px;
+    }
+}
+.modal-body {
+    & > div > .if-expression {
+        border-left: 0;
+    }
+    .container-buttons {
+        line-height: 1.6em;
+        margin-bottom: 10px;
+        text-align: right;
+        a.btn-custom {
+            font-size: 1em;
+            display: inline-block;
+            padding: 6px 8px;
+            color: #fafafa;
+            background-color: $brand-primary;
+            //.border-radius(4px);
+        }
+    }
+    .container-actions .action-column .action-head {
+        padding-bottom: 10px;
+    }
+}
+
+.modal-confirmacao .box-form-cadastro h2 {
+    margin-left: 15px;
+}
+
+.then{
+    display: inline-block;
+}
+
+.else{
+    display: inline-block;
+}
+
+.if-expression {
+    padding-left: 2em;
+    line-height: 3.2em;
+    border-left: 1px dashed rgba(152, 152, 152, 0.6);
+}
+
+.condition-action-buttons {
+    display: inline-block;
+}
+
+.add-statement-button {   
+    margin-top: 1em;
+}
+
+.table>tbody>tr>td.sim-variable-title {
+    vertical-align: middle;
+}
+    
+
+.condition{
+    border-radius: 8px;
+}
+
+.if-or-assignment {
+    display: inline-block;
+    border-radius: 8px;
+    padding: 0.5em 1.5em 0.5em 2em;
+    line-height: 3.2em;
+    border-left: 1px dashed rgba(152, 152, 152, 0.6);
+}
+
+.if-condition {
+    @include if-or-assignment;
+    border-right: 1px dashed rgba(152, 152, 152, 0.6);
+    &:hover {
+        background-color: rgba(252, 206, 109, 0.38);
+    }
+}
+
+.assignment {
+    @include if-or-assignment;
+    &:hover{
+        background-color : rgba(157, 209, 59, 0.6);
+    }
+}
+
+
+.command {
+    @include if-or-assignment;
+    &:hover{
+        background-color : rgba(59, 98, 209, 0.6);
+    }
+}
+
+.animated {
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -ms-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+}
+
+.condition-action {
+    cursor:pointer;
+    color: #036f5a;
+    opacity : 0.25;
+    &:hover {
+        opacity : 1.0;  
+    }
+}
+
+.editable-step-name{
+  background-color: $brand-primary;
+  color: white;
+  border: none;
+  height: 45px;
+  padding-left: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 465px;
+}
+
+.step-number label{
+    display: inline-block;
+}
+
+.change-verba-btn {
+    display: inline;
+    margin-left: 10px
+}
+
+.verba {
+    cursor : pointer;    
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.verba:hover {
+    background-color: rgba(255,255,255,0.5);
+}
+
+.add-row {
+    display: none;
+    text-align: center;
+}
+
+.add-row-top {
+    margin-top: -35px;
+}
+
+.add-row-bottom {
+    margin-bottom: -35px;
+}
+
+.rule-block-wrapper:hover .add-row {
+    display: block;
+}

@@ -1,0 +1,105 @@
+﻿.float-element {
+    right: 0;
+    position: fixed;
+    bottom: 10px;
+    z-index: 999;
+    display: block;
+}
+
+.floating-shadow {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.32), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.float-info-ug {
+    color: #fafafa;
+    position: relative;
+    z-index: 1;
+    min-width: 60px;
+    overflow: visible;
+    height: 60px;
+    max-height: 60px;
+    padding: 0;
+    background-color: $brand-primary;
+    line-height: initial;
+    cursor: pointer;
+    vertical-align: middle;
+    display: block;
+    text-align: center;
+    line-height: 15px;
+
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    -moz-transition:all linear 0.2s;
+    -o-transition:all linear 0.2s;
+    -webkit-transition:all linear 0.2s;
+    transition:all linear 0.2s;
+}
+
+.float-info-ug:hover {               
+        -moz-transition: display linear 2s;
+        -o-transition: display linear 2s;
+        -webkit-transition: display linear 2s;
+        transition: display linear 2s;                
+    }
+
+.float-info-ug span{
+    padding: 10px;
+}
+
+/* Syntax highlighting for JSON objects */
+
+.json-render{
+    padding: auto !important;
+}
+
+ul.json-dict, ol.json-array {
+  list-style-type: none;
+  margin: 0 0 0 1px;
+  border-left: 1px dotted #ccc;
+  padding-left: 2em;
+}
+.json-string {
+  color: #0B7500;
+}
+.json-literal {
+  color: #1A01CC;
+  font-weight: bold;
+}
+
+/* Toggle button */
+a.json-toggle {
+  position: relative;
+  color: inherit;
+  text-decoration: none;
+}
+a.json-toggle:focus {
+  outline: none;
+}
+a.json-toggle:before {
+  color: #aaa;
+  content: "\25BC"; /* down arrow */
+  position: absolute;
+  display: inline-block;
+  width: 1em;
+  left: -1em;
+}
+a.json-toggle.collapsed:before {
+  transform: rotate(-90deg); /* Use rotated down arrow, prevents right arrow appearing smaller than down arrow in some browsers */
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+
+/* Collapsable placeholder links */
+a.json-placeholder {
+  color: #aaa;
+  padding: 0 1em;
+  text-decoration: none;
+}
+a.json-placeholder:hover {
+  text-decoration: underline;
+}

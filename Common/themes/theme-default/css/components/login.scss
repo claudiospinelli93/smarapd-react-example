@@ -1,0 +1,139 @@
+﻿.login-pane {
+    background-color: rgba(255, 255, 255, .8);
+    margin: 10px auto 0;
+    width: 55%;
+    padding: 5px 5px 50px;
+    border-radius: 5px;
+    min-width: 990px;
+}
+
+.login-container {
+    margin-top: 70px;
+}
+.login-container .form {
+    max-width: 500px;
+    margin: 10px auto 0;
+    padding: 30px 30px;
+    background-color: $login-frame;
+    border: 1px solid darken($login-frame, 5%);
+    @include border-radius(5px);
+    @include box-shadow(0 2px 3px rgba(0, 0, 0, 0.2));
+}
+
+.login-container form h2 {
+    margin-bottom: 15px;
+}
+.main-logo {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.main-logo img{
+    max-height: 400px;
+    max-width: 500px;
+    margin-bottom: 25px;
+}
+.login-container .forgot-password {
+    padding: 8px 0px 0px 2px;
+    width: 500px;
+    margin: auto;
+}
+
+.login-container label {
+    padding-bottom: 4px;
+}
+
+.sendpass{
+    margin-right : 2px;
+}
+
+label.remark{
+    font-size: smaller;
+    padding-top: 4px;
+}
+
+.login-button {
+    height: 40px !important;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.form-container .login-field{
+    height: 44px;
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.anotation {
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* ICONES */
+
+.icons-container {
+    max-width: 500px;
+    margin: 10px auto 0;
+}
+
+.icons-list {
+    font-size: 0;
+    text-align: left;
+    padding-top: 10px;
+}
+.icons-list li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 12px;
+}
+.icons-list li a {
+    width: 31px;
+    height: 31px;
+    display: block;
+    transition: transform .1s ease-in-out;
+}
+.icons-list li a:focus,
+.icons-list li a:hover {
+    transform: translate3d(0px, -5px, 0px);
+}
+
+
+.little-module {
+    background: url("/images/modulos-sprite.png") no-repeat;
+    background-size: 101% auto;
+}
+.little-module.small {
+    height: 26px;
+}
+.little-module.smarcp-module {
+    background-position: 0 -0.5%;
+}
+.little-module.smarrh-module {
+    background-position: 0 -28px;
+}
+.little-module.smartb-module {
+    background-position: 0 -56px;
+}
+.little-module.smaram-module {
+    background-position: 0 -86px;
+}
+.little-module.smarsa-module {
+    background-position: 0 -112px;
+}
+.little-module.smarag-module {
+    background-position: 0 -141px;
+}
+.little-module.smarit-module {
+    background-position: 0 -192px;
+}
+.little-module.nota-fiscal-module {
+    background-position: 0 -265px;
+    background-size: 110%;
+}
+.little-module.iss-web-module {
+    background-size: 96%;
+    background-position: 0 -245px;
+}

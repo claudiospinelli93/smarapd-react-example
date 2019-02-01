@@ -1,0 +1,85 @@
+@mixin box-shadow($string) {
+    -webkit-box-shadow: $string;
+       -moz-box-shadow: $string;
+            box-shadow: $string;
+}
+
+@mixin transform($string) {
+    -webkit-transform: $string;
+       -moz-transform: $string;
+        -ms-transform: $string;
+            transform: $string;
+}
+
+@mixin transition($string) {
+    -webkit-transition: $string;
+       -moz-transition: $string;
+        -ms-transition: $string;
+            transition: $string;
+}
+
+@mixin border-radius($radius: 5px) {
+    -webkit-border-radius: $radius;
+       -moz-border-radius: $radius;
+            border-radius: $radius;
+    -webkit-background-clip: padding-box;
+       -moz-background-clip: padding;
+            background-clip: padding-box;
+}
+
+@mixin opacity($opacity: 0.5) {
+    -webkit-opacity: $opacity;
+     -khtml-opacity: $opacity;
+       -moz-opacity: $opacity;
+            opacity: $opacity;
+    $opacityPercentage: $opacity * 100;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=(#{$opacityPercentage}))"; 
+        filter: "alpha(opacity = (#{$opacityPercentage}))";
+}
+
+.hyphenize {
+    -ms-word-break: break-all;
+        word-break: break-all;
+        word-break: break-word;
+    -webkit-hyphens: auto;
+       -moz-hyphens: auto;
+            hyphens: auto;
+}
+
+.hide-text{
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.restrict-text-size {
+    overflow-x: hidden;
+    -ms-text-overflow: ellipsis;
+     -o-text-overflow: ellipsis;
+        text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+// Panels
+@mixin panel-variant-hover($border, $heading-text-color, $heading-bg-color, $heading-border) {
+  border-color: $border;
+
+  .col-md-6 > & > a > .panel-heading:hover {
+    background-color: lighten(desaturate($heading-bg-color, 20%), 10%);
+    border-color: lighten(desaturate($heading-bg-color, 20%), 10%);
+    color:$heading-text-color;
+
+    + .panel-collapse > .panel-body {
+      border-top-color: $border;
+    }
+    .badge {
+      color: $heading-bg-color;
+      background-color: $heading-text-color;
+    }
+  }
+  & > .panel-footer {
+    + .panel-collapse > .panel-body {
+      border-bottom-color: $border;
+    }
+  }
+}

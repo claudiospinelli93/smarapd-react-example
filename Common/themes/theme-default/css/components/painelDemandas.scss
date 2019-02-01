@@ -1,0 +1,28 @@
+﻿.demanda-list li {
+    display: inline-block;
+    line-height: 1.2em;
+    font-size: 13px;
+}
+
+.demanda-list li i {
+    cursor: pointer;
+    margin-right: 3px;
+    color: #8e342a;
+}
+
+.li-padding {
+    padding-top: 15px;
+    padding-left: 15px;
+    float: left;
+}
+
+.li-clear {
+    clear: both;
+}
+
+.panel-body-demanda {
+    padding-bottom: 15px;
+    padding-right: 15px;
+    overflow-y: auto;
+    max-height: 105px;
+}
