@@ -1,0 +1,1 @@
+export const ALL_POST = "configuracao.post.ALL_POST";

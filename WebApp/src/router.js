@@ -13,10 +13,11 @@ import LayoutContainer from "@/containers/Layout";
 import usuarioLogin from "@/modules/usuario/login/login.route";
 
 import configuracaoSms from "@/modules/configuracao/sms/sms.route";
+import configuracaoPost from "@/modules/configuracao/post/post.route";
 import example from "@/modules/example/example.router";
 
 const routesWithoutMenu = [...usuarioLogin, ...example];
-const routesWithMenu = [...configuracaoSms];
+const routesWithMenu = [...configuracaoSms, ...configuracaoPost];
 
 const EmptyContainer = props => (
   <div>
